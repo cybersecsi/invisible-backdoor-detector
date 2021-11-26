@@ -10,7 +10,7 @@ import glob
 from art import text2art
 
 # Definition of Bidi Characters array
-bidi_characters = ["\u3164"]
+bidi_characters = ["\u115f","\u1160","\u3164","\uffa0"] #Fillers
 
 def main():
     sexy_intro()
