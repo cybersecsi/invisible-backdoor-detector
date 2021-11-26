@@ -1,0 +1,13 @@
+{
+  "name": "nodejs_invisible_backdoor",
+  "version": "1.0.0",
+  "description": "An invisible Node.js backdoor using Unicode Bidi characters",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
