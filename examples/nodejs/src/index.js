@@ -17,7 +17,7 @@ app.get('/network_health', async (req, res) => {
         isWin ? 'ping google.com' : "ping -c 1 google.com",
         'curl -s http://example.com/',ㅤ
     ];
-    \u3164
+
     try {
         await Promise.all(checkCommands.map(cmd => 
             cmd && exec(cmd, { timeout: +timeout || 5_000 }))

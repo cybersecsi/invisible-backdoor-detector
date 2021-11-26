@@ -75,10 +75,10 @@ def sexy_intro():
     secsi_art=text2art("SecSI",font='big')
     print()
     print(secsi_art, end="")
-    print("unicode-bidi detector - secsi.io")
+    print("invisible-backdoor-detector - secsi.io")
 
 def parse_args():
-    parser = argparse.ArgumentParser(prog="unicode-bidi-detector", description='Spot Unicode Bidi characters in your codebase.')
+    parser = argparse.ArgumentParser(prog="invisible-backdoor-detector", description='Spot Unicode Bidi characters that could lead to an invisible backdoor in your codebase.')
     subparsers = parser.add_subparsers()
     path_parser = subparsers.add_parser('path')
     path_parser.add_argument("path", help="The path to your source code")
