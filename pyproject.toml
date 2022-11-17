@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "invisible-backdoor-detector"
+version = "0.1.0"
+description = "A simple tool to spot and remove Bidi characters that could lead to an invisible backdoor"
+authors = ["SecSI <dev@secsi.io>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "invisible_backdoor_detector"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = {extras = ["all"], version = "^0.7.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+invisible-backdoor-detector = 'invisible_backdoor_detector.main:app'
